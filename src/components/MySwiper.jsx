@@ -52,16 +52,14 @@ const MySwiper = () => {
    className="mySwiper "
  >
   {
-    movieList.map(item =>  <>
-   <SwiperSlide> 
-       <div class="card">
+    movieList.map(item =>  <SwiperSlide key={item.show?.id}> 
+       <div className="card">
        <img src={item.show.image?.original} />
-       <div class="card-footers ">
-      <small class="text-muted"><i class="bi b-colour bi-star-fill"></i> {item.show.rating.average}</small>
+       <div className="card-footers ">
+      <small className="text-muted"><i className="bi b-colour bi-star-fill"></i> {item.show.rating.average}</small>
     </div>
        </div>
    </SwiperSlide>  
-    </>
       )
   }
  </Swiper>

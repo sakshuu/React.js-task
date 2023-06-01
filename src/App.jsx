@@ -6,11 +6,12 @@ import "./assets/css/App.css"
 
 const App = () => {
   const [singleData, setsingleData] = useState({})
+
   return  <>
       <BrowserRouter>
       <Routes>
-<Route path="/" element={<MyNavbar/>} >
-<Route index element={<Home setsingleData={setsingleData}/>}  />
+<Route path="/" element={<MyNavbar />} >
+<Route index element={<Home setsingleData={setsingleData} />}  />
 <Route path="details/:id" element={<Details singleData={singleData}/>}  />
 <Route path="book-tickets" element={<BookTickets/>} />
     </Route>

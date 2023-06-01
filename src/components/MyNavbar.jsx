@@ -3,27 +3,27 @@ import Movie from "./../assets/images/Movie.png";
 import "./../assets/css/Home.css"
 import { Outlet } from 'react-router-dom';
 import Footer from './Footer';
-import { useSelector } from 'react-redux';
 
 const MyNavbar = () => {
-  
+
+
   return (<>
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container-fluid ">
-    <a class="navbar-brand" href="#"><img src={Movie}/></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
-      <span class="navbar-toggler-icon"></span>
+<nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div className="container-fluid ">
+    <a className="navbar-brand" href="#"><img src={Movie}/></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
 
 
-        <a class="nav-link active">
+        <a className="nav-link active">
 
 
-  <div class="search">
-  <i class="bi bi-search"></i>
-    <input type="text" class="form-control"  onChange={e => handleSearch(e.target.value)} placeholder="Search Movie"/>
+  <div className="search">
+  <i className="bi bi-search"></i>
+    <input type="text" className="form-control" placeholder="Search Movie"/>
   </div>
 
           </a>          
