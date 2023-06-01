@@ -1,0 +1,129 @@
+/* usernavbar */
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+    position: relative;
+    margin-left: 200px;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1); 
+}
+.search input{
+     height: 45px;
+     width: 70vmin;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+     /* margin-right: 350px; */
+}
+.search input:focus{
+box-shadow: none;
+border: 2px solid white;
+}
+
+    .search .bi-search{
+     position: absolute;
+     top: 10px;
+     left: 16px;
+     color: black;
+
+    }
+
+    .search button{
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     background: black;
+     
+
+    }
+    .container-fluid{
+        margin-left: 60px;
+    }
+
+
+    /* Carousel */
+    #swiper{
+        height: 50vh;
+        width: 100%;
+    }
+.slide{
+    margin: 6px;
+}
+
+/* movieShow */
+.row{
+    margin: 3%;
+}
+.poster{
+    margin-bottom: 10%;
+}
+.adjust{
+    height: 75vmin;
+    width: 45vmin;
+}
+
+.dark-link {
+    text-decoration:  none;
+    color: black;
+    background-color: wheat;
+}
+.dark-link:hover{
+    color: black;
+    background-color: white;
+}
+.card-footers{
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+.b-colour{
+color: #E32636;
+}
+.card-below{
+    padding: 6px;
+    height: 20vmin;
+    width: 45vmin;
+    background-color: white;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 10px;
+    padding: 35px;
+    background-color: lightgrey;
+}
+.content{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.footer-logo{
+margin-top: 20px;
+  text-align: center;
+}
+.youTube{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 3%;
+    gap: 26px;
+}
+.back{
+    margin-right: 2%;
+}
+
+
+
+
+

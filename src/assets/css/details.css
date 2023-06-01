@@ -1,0 +1,108 @@
+/* movie details */
+
+.main{
+  position: relative;
+}
+.middle{
+  position: absolute;
+}
+.moviedetails{
+  display: flex;
+    align-items: flex-start;
+    margin:5%;
+  }
+.cinemas-footer{
+   font-size: 12px;
+  text-align: center;
+  margin: 0px; 
+  background-color: black;
+  color: azure;
+  margin: 0px;
+}
+ .left-side{
+      padding-left: 14%;
+      padding-top: 4%;
+}
+.img-card{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+.file-name{
+  padding: 20px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+.language-d{
+  padding: 10px;
+  background-color:#D3D3D3;
+  width: 7vmin;
+}
+.language{
+  padding: 10px;
+  width: 29vmin;
+  background-color:#D3D3D3;
+}
+.right-side{
+padding-top: 60px;
+}
+.bullet{
+  list-style-type: circle;
+}
+.tickets-btn{
+  border-radius: 30px;
+  font-size: 15px;
+}
+.second-section{
+  margin-top: 35px;
+}
+.about{
+   padding: 10px;
+}
+.footer-section{
+  margin-bottom:  35px;
+}
+
+
+
+
+/* swiper */
+.swiper {
+	width: 100%;
+	margin-top: 20px;
+	padding: 0px;
+  margin: 0px;
+	height: 75vmin;
+  }
+  .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 250px;
+  }
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+  }
+  .footer-swiper{
+	margin-top: 10px;
+  }
+  .card{
+	background-color: aliceblue;
+	padding: 0px;
+  }
+  .swiper-footer{
+	padding: 6px;
+  }
+@media (min-device-height: 200px) {
+	.swiper  {
+	  height: 85%;
+	}
+  }
+  
